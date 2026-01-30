@@ -16,13 +16,12 @@ const projects = [
   {
     title: "Portfolio Website",
     category: "Web Design",
-    description:
-      "A professional ATS-friendly portfolio built to showcase technical skills and academic achievements as an MCA graduate.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    image: "/modern-developer-portfolio-preview.jpg",
+    description: "A full-stack, responsive Trello clone built with React and TypeScript, featuring complex drag-and-drop workflows, secure authentication, and real-time activity tracking.",
+    tags: ["Nest.js", "TypeScript", "Tailwind CSS", "React Js", "postgraSQL", "State Management: Redux Toolkit", "Lucide React, React Toastify", "Authentication: JWT, Bcrypt"],
+    image: "/trello-clone.png",
     links: {
       github: "https://github.com/Thatikondapooja",
-      live: "#",
+      live: "https://trello-clone-pooja.vercel.app",
     },
   },
 ]
