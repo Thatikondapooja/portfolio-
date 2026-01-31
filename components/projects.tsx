@@ -1,6 +1,19 @@
 import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
+
+  {
+    title: "Trello Clone",
+    category: "Full-Stack Development",
+    description: "A full-stack, responsive Trello clone built with React and TypeScript, featuring complex drag-and-drop workflows, secure authentication, and real-time activity tracking.",
+    tags: ["Nest.js", "TypeScript", "Tailwind CSS", "React Js", "postgraSQL", "State Management: Redux Toolkit", "Lucide React, React Toastify", "Authentication: JWT, Bcrypt"],
+    image: "/trello-clone.png",
+    links: {
+      github: "https://github.com/Thatikondapooja",
+      live: "https://trello-clone-pooja.vercel.app",
+    },
+  },
+
   {
     title: "Car Social Network",
     category: "Full-Stack Development",
@@ -13,17 +26,7 @@ const projects = [
       live: "https://car-social-network-project.onrender.com",
     },
   },
-  {
-    title: "Trello Clone",
-    category: "Full-Stack Development",
-    description: "A full-stack, responsive Trello clone built with React and TypeScript, featuring complex drag-and-drop workflows, secure authentication, and real-time activity tracking.",
-    tags: ["Nest.js", "TypeScript", "Tailwind CSS", "React Js", "postgraSQL", "State Management: Redux Toolkit", "Lucide React, React Toastify", "Authentication: JWT, Bcrypt"],
-    image: "/trello-clone.png",
-    links: {
-      github: "https://github.com/Thatikondapooja",
-      live: "https://trello-clone-pooja.vercel.app",
-    },
-  },
+
 ]
 
 export function Projects() {
