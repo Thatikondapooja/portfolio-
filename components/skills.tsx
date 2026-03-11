@@ -11,13 +11,19 @@ const skillCategories = [
     icon: <Database className="w-5 h-5" />,
     skills: ["NestJS", "Node.js", "RESTful APIs", "SQL", "PostgreSQL"],
   },
+   {
+    title: "DevOps & Cloud",
+    icon: <Terminal className="w-5 h-5" />,
+    skills: ["GitHub Actions", "CI/CD Pipelines", "AWS EC2", "Vercel", "Cloudflare", "Render"],
+  },
   {
     title: "Core Fundamentals",
     icon: <Terminal className="w-5 h-5" />,
     skills: ["Data Structures", "Algorithms", "DBMS", "Computer Networks"],
   },
-]
+ 
 
+]
 export function Skills() {
   if (!skillCategories || skillCategories.length === 0) {
     return null

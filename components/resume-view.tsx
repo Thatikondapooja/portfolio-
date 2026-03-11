@@ -71,6 +71,7 @@ export function ResumeView() {
           <p>
             <strong className="font-semibold">Tools:</strong> Git, GitHub, Visual Studio Code
           </p>
+          <p><strong className="font-semibold">DevOps & Cloud:</strong> GitHub Actions, CI/CD Pipelines, AWS EC2, Vercel, Cloudflare, Render</p>
           <p>
             <strong className="font-semibold">Core Concepts:</strong> Data Structures & Algorithms, UI/UX Principles,
             Computer Networking
@@ -82,10 +83,7 @@ export function ResumeView() {
       <section className="mb-6">
         <h2 className="text-lg font-bold uppercase border-b border-slate-300 mb-3 tracking-wide">Key Projects</h2>
         <div className="mb-4">
-          <div className="flex justify-between items-baseline mb-1">
-            <h3 className="font-bold text-[16px] mb-3">Car Social Network </h3>
-            <span className="text-sm italic">MCA Final Year Project</span>
-          </div>
+         
           {/* <li className="text-[14px] mb-2 text-slate-700">
             Car Social Network is a smart web-based application designed to enable secure and efficient communication between vehicle owners using license plate recognition. </li>
             <li> The system allows users to identify a vehicle through its number plate and contact the corresponding owner without exposing personal contact details.</li>
@@ -95,7 +93,7 @@ export function ResumeView() {
             <li>Strong authentication, data privacy mechanisms, and encrypted communication are implemented to protect sensitive user information.
 
           </li> */}
-          <ul className="list-disc ml-5 text-[14px] space-y-1">
+          {/* <ul className="list-disc ml-5 text-[14px] space-y-1">
             <li className="text-[14px] mb-2 text-slate-700">
               Car Social Network is a smart web-based application designed to enable secure and efficient communication between vehicle owners using license plate recognition. </li>
             <li> The system allows users to identify a vehicle through its number plate and contact the corresponding owner without exposing personal contact details.</li>
@@ -124,8 +122,42 @@ export function ResumeView() {
             </li>
             <li>Optimised application performance by implementing clean architecture and scalable backend services.</li>
           </ul>
+          
         </div>
-      </section>
+      </section> */}
+
+        <ul className="list-disc ml-5 text-[14px] space-y-1">
+           <div className="flex justify-between items-baseline mb-1">
+            <h2 className="font-bold text-[16px] mb-3">Task Management Application</h2>
+            <span className="text-sm italic">React · TypeScript · Redux Toolkit · NestJS · PostgreSQL · Tailwind CSS</span>
+          </div>
+<li className="text-[14px] mb-2 text-slate-700">	Built a responsive SPA using React, TypeScript, and Redux Toolkit with drag-and-drop Kanban board functionality via @dnd-kit.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Designed scalable REST APIs using NestJS and PostgreSQL with TypeORM; implemented JWT authentication with secure password hashing.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Developed automated email reminders for task deadlines using NodeMailer and NestJS Scheduler.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Implemented activity logging and member management for collaborative boards.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Configured CI/CD pipeline using GitHub Actions; deployed frontend on Vercel and backend on AWS EC2 using PM2.</li>
+ <div className="flex justify-between items-baseline mb-1">
+            <h3 className="font-bold text-[16px] mb-3">Car Social Network	Django </h3>
+            <span className="text-sm italic">· Python · MySQL · OCR · OpenCV · NumPy</span>
+            <span className="text-sm italic">MCA Final Year Project</span>
+          </div>
+<li className="text-[14px] mb-2 text-slate-700">	Developed a web-based platform enabling secure communication between vehicle owners using licence plate recognition.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Built responsive frontend using React and Tailwind CSS with Django/Python backend and PostgreSQL database.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Applied OCR and OpenCV techniques to detect and extract licence plate numbers from vehicle images.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Enabled secure communication via SMS and email notifications while protecting personal contact details.</li>
+</ul>
+  </div></section>
+  <section className="mb-6">
+<h2 className="text-lg font-bold uppercase border-b border-slate-300 mb-3 tracking-wide">DEVOPS & DEPLOYMENT EXPERIENCE</h2>
+<ul className="list-disc ml-5 text-[14px] space-y-1">
+<li className="text-[14px] mb-2 text-slate-700">	Implemented CI/CD pipelines using GitHub Actions for automated build and deployment.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Deployed full-stack applications with frontend hosted on Vercel and backend deployed on AWS EC2.</li>
+<li className="text-[14px] mb-2 text-slate-700">	Configured PM2 process manager for application reliability and automatic restarts.</li>
+<li className="text-[14px] mb-2 text-slate-700">Implemented Cloudflare Tunnel to securely expose backend APIs.</li>
+<li className="text-[14px] mb-2 text-slate-700" >	Managed version control and collaboration using Git and GitHub</li>
+    </ul>
+     </section>   
+    
 
       {/* Education */}
       <section className="mb-6">
